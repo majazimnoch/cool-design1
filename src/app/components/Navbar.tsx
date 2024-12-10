@@ -23,18 +23,18 @@ const Navbar = () => {
         <NavbarWrapper>
             <NavSingleContainer>
                 <p>Lime</p>
-               <Image src="/images/logo.jpg" alt="Logo" width={50} height={50} />
+                <Image src="/images/logo.jpg" alt="Logo" width={50} height={50} />
             </NavSingleContainer>
             <NavSingleContainer>
-          
-            <p>test</p>
-            <Menu isOpen={false} width={ '300px' } right>
-  <a id="home" className="menu-item" href="/">Home</a>
-  <a id="about" className="menu-item" href="/about">About</a>
-  <a id="contact" className="menu-item" href="/contact">Contact</a>
-</Menu>
+
+                <p>test</p>
+                <Menu isOpen={false} width={'300px'} right>
+                    <a id="home" className="menu-item" href="/">Home</a>
+                    <a id="about" className="menu-item" href="/about">About</a>
+                    <a id="contact" className="menu-item" href="/contact">Contact</a>
+                </Menu>
             </NavSingleContainer>
-        
+
         </NavbarWrapper>
     )
 }
